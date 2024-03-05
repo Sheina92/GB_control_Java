@@ -2,7 +2,6 @@ import java.io.*;
 import java.util.*;
 
 public class program {
-    private static final int NUM_TOYS = 3;
     private PriorityQueue<Toy> toys;
 
     public program(String[] toyData) {
