@@ -53,10 +53,10 @@ public class program {
         }
     }
 
-    private static class Toy implements Comparable<Toy> {
-        private int id;
-        private String name;
-        private int frequency;
+    class Toy implements Comparable<Toy> {
+        int id;
+        String name;
+        int frequency;
 
         public Toy(int id, String name, int frequency) {
             this.id = id;
